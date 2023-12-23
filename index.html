@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts Google</title>
+    <meta name="google" content="notranslate">
+    <style id="js-style">
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        div {
+            padding: 1em;
+            font-size: 20px;
+
+        }
+
+        h2 {
+            margin-bottom: 1.5em;
+        }
+
+
+        span {
+            padding: 1em;
+            border: 2px solid #000;
+            font-family: inherit;
+            user-select: none;
+        }
+
+        span:hover {
+            background: #000;
+            color: #fff;
+        }
+
+        span:active {
+
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+
+        const data = [{
+            name: 'Mulish',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');`,
+            font: `font-family: 'Mulish', sans-serif;`
+        },
+        {
+            name: 'Quicksand',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');`,
+            font: `font-family: 'Quicksand', sans-serif;`
+        },
+        {
+            name: 'Josefin',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');`,
+            font: `font-family: 'Josefin Sans', sans-serif;`
+        },
+        {
+            name: 'Comfortaa',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');`,
+            font: `font-family: 'Comfortaa', sans-serif;`
+        },
+        {
+            name: 'Questrial',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');`,
+            font: `font-family: 'Questrial', sans-serif;`,
+        },
+        {
+            name: 'Lexend',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');`,
+            font: `font-family: 'Lexend', sans-serif;`
+        },
+        {
+            name: 'Alata',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');`,
+            font: `font-family: 'Alata', sans-serif;`
+        },
+        {
+            name: 'Poppins',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');`,
+            font: `font-family: 'Poppins', sans-serif;`
+        },
+        {
+            name: 'Roboto',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');`,
+            font: `font-family: 'Roboto', sans-serif;`
+        },
+        {
+            name: 'Open Sans',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');`,
+            font: `font-family: 'Open Sans', sans-serif;`
+        }, {
+            name: 'Montserrat',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');`,
+            font: `font-family: 'Montserrat', sans-serif;`
+        },
+        {
+            name: 'Tilt Neon',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');`,
+            font: `font-family: 'Tilt Neon', sans-serif;`
+        }, {
+            name: 'Prata',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');`,
+            font: `font-family: 'Prata', serif;`
+        },
+        {
+            name: 'Yeseva One',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');`,
+            font: `font-family: 'Yeseva One', serif;`
+        }, {
+            name: 'Borel',
+            link: `<link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">`,
+            import: `@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');`,
+            font: `font-family: 'Borel', cursive;`
+        }
+
+        ]
+
+        data.forEach(d => {
+            let E = `
+                <div style="${d.font}">
+                    <h2>${d.name}</h2>
+                    <span>link</span>
+                    <span>import</span>
+                    <span>Bai hặt đữợc nghể nhiều nhất</span>
+                </div>
+                `
+
+            let head = document.querySelector('head')
+            head.innerHTML += d.link
+
+            document.body.innerHTML += E
+        })
+        const ss = document.querySelectorAll('span')
+        ss.forEach((s, i) => {
+            s.onclick = () => {
+                let indexDiv = Math.floor(i / 3)
+
+                if (i % 3 === 0) {
+                    navigator.clipboard.writeText(data[indexDiv].link)
+                }
+                if (i % 3 === 1)
+                    navigator.clipboard.writeText(data[indexDiv].import)
+                if (i % 3 === 2)
+                    navigator.clipboard.writeText(data[indexDiv].font)
+            }
+        })
+    </script>
+</body>
+
+</html>
